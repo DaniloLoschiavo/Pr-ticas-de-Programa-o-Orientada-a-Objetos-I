@@ -48,6 +48,7 @@ public class Conta {
                 return false;
             else{
                 saldo -= valor;
+                contaDestino.depositar(valor);
                 return true;
             }
         } else 
